@@ -16,5 +16,3 @@ const chalk = require("chalk")
 console.log(`\
 ${chalk.yellow("WARNING")}: '${chalk.cyan("gulp build")}' isn't supported anymore. Use '${chalk.cyan("node make build")}' instead.
 `)
-
-const patch = require("patch-package")
